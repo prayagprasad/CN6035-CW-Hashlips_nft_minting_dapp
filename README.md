@@ -1,8 +1,8 @@
 # MintPulse: Hybrid NFT Distributed System
-# Module: CN6035 2526 Mobile and Distributed Systems
+## Module: CN6035 2526 Mobile and Distributed Systems
 **MintPulse** is an improved version of the HashLips NFT Minting DApp, transformed into a professional 3-tier Hybrid Distributed System for the CN6035 module.
 
-## 🚀 Key Improvements (The "Missing" Parts)
+## 🚀 Key Improvements (The Missing Parts)
 - **Middleware API:** Built a Node.js/Express backend to handle off-chain data.
 - **Persistence Layer:** Integrated MongoDB Atlas for global transaction history.
 - **Enhanced UI:** Added a Live System Monitor and Blockchain Analytics dashboard.
