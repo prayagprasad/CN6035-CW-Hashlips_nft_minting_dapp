@@ -1,6 +1,6 @@
 # MintPulse: Hybrid NFT Distributed System
-## Module: CN6035 2526 Mobile and Distributed Systems
-**MintPulse** is an improved version of the HashLips NFT Minting DApp, transformed into a professional 3-tier Hybrid Distributed System for the CN6035 module.
+## Module: CN6035 Mobile and Distributed Systems
+**MintPulse** is an improved version of the HashLips NFT Minting DApp, transformed into a professional 3-tier Hybrid Distributed System for this coursework
 
 ## 🚀 Key Improvements (The Missing Parts)
 - **Middleware API:** Built a Node.js/Express backend to handle off-chain data.
@@ -27,7 +27,7 @@
 2. Install dependencies: `npm install`
 3. Start the DApp: `npm start` (Port 3001)
 
-## 🏗️ System Architecture
+## System Architecture
 The project follows a **Hybrid Distributed Architecture**:
 1. **Client:** React.js Redux-based UI.
 2. **Middleware:** Express.js RESTful API.
