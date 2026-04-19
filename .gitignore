@@ -1,3 +1,8 @@
+node_modules
+.env
+.DS_Store
+backend/.env
+**/node_modules
 # Logs
 
 logs
@@ -140,3 +145,4 @@ dist
 # OSX
 
 .DS_Store
+
