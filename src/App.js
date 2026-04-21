@@ -109,7 +109,7 @@ function App() {
         setFeedback(`SUCCESS: Confirmed in Block ${blockNumber}. Gas Used: ${gasUsed}`);
         console.log("Transaction Receipt:", receipt);
 
-        // Save this rich data to your GOOD backend
+        // Save data to backend
         saveToBackend(blockchain.account, receipt.transactionHash);
         
         dispatch(fetchData(blockchain.account));
@@ -138,7 +138,7 @@ function App() {
         },
       });
       const config = await configResponse.json();
-      console.log("✅ CONFIG LOADED:", config); // This will show in F12 Console
+      console.log("✅ CONFIG LOADED:", config); 
       SET_CONFIG(config);
     } catch (err) {
       console.error("❌ CONFIG FAILED TO LOAD:", err);
